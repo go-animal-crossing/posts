@@ -1,4 +1,4 @@
-project_name: markdown
+project_name: posts
 
 env_files:
   github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -6,11 +6,11 @@ env_files:
 release:
   github:
     owner: go-animal-crossing
-    name: markdown
+    name: posts
 
 builds:
-  - binary: markdown
-    id: markdown
+  - binary: posts
+    id: posts
     main: ./main.go
     goos:
       - linux
