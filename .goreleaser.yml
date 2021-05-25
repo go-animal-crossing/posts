@@ -13,9 +13,6 @@ builds:
     id: markdown
     main: ./main.go
     goos:
-      - freebsd
-      - openbsd
-      - solaris
       - linux
       - darwin
     goarch:
