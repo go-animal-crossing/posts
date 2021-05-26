@@ -16,7 +16,7 @@ item:
     slug: %s
   id: %s
 title: %s
-permalink: %s
+permalink: %s/
 layout: page  
 ---
 `,
