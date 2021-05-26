@@ -10,6 +10,7 @@ func Post(item targetstructures.Item, all targetstructures.Output, dir string) (
 	permalink := item.Attributes.URIS.URL
 	title := item.Attributes.Titles.Safe
 	content := fmt.Sprintf(`---
+layout: layouts/post.njk
 item:
   type:
     title: %s
