@@ -14,8 +14,7 @@ var directories = map[string]string{
 	"data":      "./_source/data/",
 	"images":    "./_source/images/",
 	"converted": "./_source/converted/",
-	"templates":  "./_source/templates/",
-	"posts":  "./_source/templates/posts/",
+	"posts":     "./_source/posts/",
 }
 
 var poolSize = 20
